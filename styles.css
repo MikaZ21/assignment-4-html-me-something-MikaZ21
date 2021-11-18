@@ -1,4 +1,70 @@
-li {
-    display: list-item;
-    text-align: -webkit-match-parent;
+body { 
+   margin: 8px;
+   display: block;
+   color: rgb(72, 72, 72);
+   font-family: Arial, Helvetica, sans-serif;
+   background: linear-gradient(115deg, rgb(250, 132, 35),rgb(255, 223, 199));
+   display: center;
+}
+
+h1 {
+    padding: 100px 50px 75px 100px;
+    color: rgb(250, 132, 35);
+    text-align: center;
+    background-color: rgb(196, 252, 233);
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    border: solid 5px white;
+    border-radius: 85px 0 85px 0;
+}
+
+.plantingInfo {
+    margin-bottom: 5px;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+ul {
+    margin-top: 0;
+    
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 5px;
+
+}
+
+
+p {
+    padding: 5px 0 5px 0;
+    background-color: rgb(196, 252, 233);
+    margin-top: 0;
+
+}
+
+.funParagraph {
+    background-color: green;
+    color: black;
+}
+
+img {
+    border-radius: 85px 0 85px 0;
+}
+
+.ps {
+    color: rgb(250, 132, 35);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 25px;
+}
+
+footer {
+    padding: 10px 5px 7px 10px;
+    text-align: right;
+    background-color: rgb(196, 252, 233);
+    border: solid 2px white;
+
 }
